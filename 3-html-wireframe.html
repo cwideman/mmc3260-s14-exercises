@@ -1,45 +1,52 @@
 <!DOCTYPE html>
 <html>
-
     <head>
-        <title>Exercise 3: HTML wireframe</title>
-        <meta charset="UTF-8">
-        <meta name="description" content="A basic HTML layout styles with CSS.">
-        <meta name="keywords" content="HTML,CSS,layout,wireframe,mmc3260">
-        <meta name="author" content="Dave Stanton">
-        <link rel="stylesheet" type="text/css" href="css/layout.css">
+        <title>Christy Wideman</title>
     </head>
-
+    <!-- Insert a banner -->
     <body>
-
-        <header>
-            <h1>HTML wireframe layout</h1>
-        </header>
-
-        <nav>
-            <a href="1-html-quick-fix.html">HTML quick fix</a>
-            <a href="2-html-links-and-images.html">HTML links and images</a>
-            <a href="#footer">Copyright</a>
-        </nav>
-
-        <article>
-
-            <section>
-                <h2>Section heading</h2>
-                <p>Put whatever you want here.</p>
-            </section>
-
-            <aside>
-                <h2>Aside heading</h2>
-                <p>Be careful about having an aside element just for dumping other things. This area, however, might be a great spot for sharing tools or related links to this article.
-            </aside>
-
-        </article>
-
+   
+    <header>
+        <h1>
+        <a href="3-html-wireframe.html">Christy Wideman</a>
+        </h1>
+    </header>
+       <!-- I want bullet links here -->  
+        <nav role="navigation">
+            <ul>
+    <li><a href="3-html-wireframe.html">Home</a></li>
+    <li><a href="bibliography.html">Bibliography</a></li>
+    <li><a href="resume.html">Resume</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="contact-me.html">Contact Me</a></li>
+                </ul>
+    </nav>
+        
+    <article>
+       <h1>About Me</h1>
+        <!-- want image alongside bullet links -->
+    <figure class="right">
+            <img src="img/profilepic.jpg" width="200" alt="Profile Picture" title="Copyright © 2014 Wideman" class="left" /> <figcaption> <p class="caption">Christy Wideman</p></figcaption>
+        </figure>
+        <!-- Want main info under picture -->
+          <h2> <strong>Aspiring journalist in writing and reporting your most sought out entertainment and news. </strong></h2> 
+            <p>I am currently working on a bachelor’s degree at the University of Florida’s College of Journalism and Communications. I recently graduated from Lecanto High School top 3% of my graduating class with summa cum laude.</p>
+        <p>I am an assertive individual with high expectations of myself. I am an optimistic person who proactively gets things finished on time and in good quality. I work well with deadlines. I believe in turning every opportunity into a positive experience and every challenge into an adventure.</p>
+<p>I am focused on gaining all types of media, news and other writing experience.</p>
+    
+      </article>
         <footer>
-            <p id="copyright">&copy; 2013. Content in your projects should be all original. Any content from additional sources should explicitly state the source and give credit. The GIFs used in these exercises were found on <a href="http://giphy.com/">Giphy</a>. If these exercises were intended for public viewing, I should track down the actually copyright owner for all of the images I used.</p>
-        </footer>        
-
-    </body>
-
-</html>
+            <!-- Want social media links here but used through logos -->         
+         
+            <nav role="navigation">
+        <a href="3-html-wireframe.html">Home</a>
+            <a href="bibliography.html">Bibliography</a>
+        <a href="resume.html">Resume</a> 
+        <a href="blog.html">Blog</a>
+        <a href="contact-me.html">Contact Me</a>
+            
+            <p>Copyright © February 2014 <a class="email" href="mailto:christy.wideman@ufl.com">Christy Wideman</a></p>
+</nav>
+</footer>
+        </body>
+    </html>
